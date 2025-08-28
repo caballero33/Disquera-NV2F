@@ -45,4 +45,25 @@ margin-top: 10px;
 }
 
 
-
+/* Un poco de CSS que necesitaba */
+/* Att. Lester */
+.imagen{
+    max-width: 250px; 
+    width: 100%; 
+    height:auto;
+    transition: transform .5s;
+}
+.imagen:hover{
+    transform: scale(1.05);
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.album{
+font-weight: bold;
+margin-top: 10px;
+}
