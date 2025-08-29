@@ -175,18 +175,58 @@ font-weight: bold;
 margin-top: 10px;
 }
 
+#duki-discoImage{
+    width: 72%;
+}
 
-/* Un poco de CSS que necesitaba */
-/* Att. Lester */
-.imagen{
-    max-width: 250px; 
-    width: 100%; 
-    height:auto;
-    transition: transform .5s;
+.card-duki{
+    display: block;
+    background-color: #3a3a3a;
+    margin: 20px;
+    border-radius: 20px;
+    border: black solid 5px;
 }
-.imagen:hover{
-    transform: scale(1.05);
+
+.duki-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
 }
+
+.card-duki-child{
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-duki-child-info{
+    width: 40%;
+    margin: 80px;
+}
+.card-duki-child P{
+    width: 90%;
+    text-align: left;
+}
+
+.card-duki-child img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#imagen-duki{
+    width: 85%;
+}
+
+.canciones-lista {
+  list-style: none;
+  padding-left: 55px; 
+  margin-top: 10px;
+  text-align: left;
+  width: 90%;
+=======
 .cntainoerfooter-content {
 background-color: var(--bg-secondary);
 font-size: 0.9rem;
